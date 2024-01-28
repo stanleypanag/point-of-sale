@@ -1,3 +1,7 @@
+<?php
+    require_once('../point-of-sale/pos/admin/partials/_head.php')
+?>
+
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
