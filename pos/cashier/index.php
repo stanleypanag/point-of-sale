@@ -28,9 +28,9 @@ require_once('partials/_head.php');
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
 
 </head>
 
@@ -41,8 +41,7 @@ require_once('partials/_head.php');
         <div class="header-body text-center mb-7">
           <div class="row justify-content-center">
             <div class="col-lg-5 col-md-6">
-              <h1 style="font-family: 'Honk', system-ui; font-size: 50px;">Login as Cashier</h1>
-            </div>
+            <h1 class="" style="font-family: 'Shrikhand', serif, system-ui;color: #6D2932; font-size: 50px">Login as Cashier</h1>            </div>
           </div>
         </div>
       </div>

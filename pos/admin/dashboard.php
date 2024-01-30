@@ -31,7 +31,7 @@ require_once('partials/_analytics.php');
           <div class="row">
             <div class="col-xl-3 col-lg-6">
               <div class="card card-stats mb-4 mb-xl-0 border-0"> 
-                <div class="card-body" style="background-color: #FDF0D1;">
+                <div class="card-body" >
                   <div class="row">
                     <div class="col">
                       <h5 class="card-title text-uppercase text-black mb-0">Customers</h5>
@@ -49,7 +49,7 @@ require_once('partials/_analytics.php');
 		  
             <div class="col-xl-3 col-lg-6">
               <div class="card card-stats mb-4 mb-xl-0 border-0">
-                <div class="card-body" style="background-color: #FDF0D1;">
+                <div class="card-body" >
                   <div class="row">
                     <div class="col">
                       <h5 class="card-title text-uppercase text-black mb-0">Products</h5>
@@ -67,7 +67,7 @@ require_once('partials/_analytics.php');
 		  
             <div class="col-xl-3 col-lg-6">
               <div class="card card-stats mb-4 mb-xl-0 border-0">
-                <div class="card-body" style="background-color: #FDF0D1;">
+                <div class="card-body" >
                   <div class="row">
                     <div class="col">
                       <h5 class="card-title text-uppercase text-black mb-0">Orders</h5>
@@ -85,7 +85,7 @@ require_once('partials/_analytics.php');
 		  
             <div class="col-xl-3 col-lg-6">
               <div class="card card-stats mb-4 mb-xl-0 border-0">
-                <div class="card-body" style="background-color: #FDF0D1;">
+                <div class="card-body" >
                   <div class="row">
                     <div class="col">
                       <h5 class="card-title text-uppercase text-black mb-0">Sales</h5>
