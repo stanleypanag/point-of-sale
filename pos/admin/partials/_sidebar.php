@@ -9,7 +9,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
 
 </head>
 
@@ -24,7 +24,7 @@
   while ($admin = $res->fetch_object()) {
 
   ?>
-    <nav class="navbar navbar-vertical fixed-left navbar-expand-md navbar-light" style="background-color: #643843;" id="sidenav-main">
+    <nav class="navbar navbar-vertical fixed-left navbar-expand-md navbar-light" style="background-color: #D63484;" id="sidenav-main">
       <div class="container-fluid">
         <!-- Toggler -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sidenav-collapse-main" aria-controls="sidenav-main" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,7 +32,7 @@
         </button>
         <!-- Brand -->
         <a class="navbar-brand pt-0 pb-0" href="dashboard.php">
-          <h1 style="font-family: 'Honk', system-ui;color: #6D2932;font-size: 2rem;">Sweet Thumb</h1>
+          <h1 style="font-family: 'Shrikhand', serif;color: #FDF0D1;font-size: 1.5rem;">Sweet Thumb</h1>
         </a>
         <!-- User -->
         <ul class="nav align-items-center d-md-none">
@@ -154,8 +154,8 @@
           <hr class="my-3">
           <ul class="navbar-nav mb-md-3">
             <li class="nav-item">
-              <a class="nav-link text-red" href="logout.php">
-                <i class="fas fa-sign-out-alt text-danger"></i> Log Out
+              <a class="nav-link" href="logout.php">
+                <i class="fas fa-sign-out-alt text-black"></i> Log Out
               </a>
             </li>
           </ul>
