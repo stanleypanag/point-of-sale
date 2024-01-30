@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 28, 2024 at 05:28 PM
+-- Generation Time: Jan 30, 2024 at 04:48 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -82,6 +82,13 @@ CREATE TABLE `rpos_orders` (
   `created_at` timestamp(6) NOT NULL DEFAULT current_timestamp(6) ON UPDATE current_timestamp(6)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
+--
+-- Dumping data for table `rpos_orders`
+--
+
+INSERT INTO `rpos_orders` (`order_id`, `order_code`, `customer_id`, `customer_name`, `prod_id`, `prod_name`, `prod_price`, `prod_qty`, `order_status`, `created_at`) VALUES
+('527f591496', 'KDOT-0615', '4f412157e48f', 'Stanley Panag', 'cd95dc5b2d', 'Choco Cupcake w/ white Icing (per paper box)', '200', '2', 'Paid', '2024-01-29 06:21:35.499920');
+
 -- --------------------------------------------------------
 
 --
@@ -120,6 +127,13 @@ CREATE TABLE `rpos_payments` (
   `created_at` timestamp(6) NOT NULL DEFAULT current_timestamp(6) ON UPDATE current_timestamp(6)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
+--
+-- Dumping data for table `rpos_payments`
+--
+
+INSERT INTO `rpos_payments` (`pay_id`, `pay_code`, `order_code`, `customer_id`, `pay_amt`, `pay_method`, `created_at`) VALUES
+('03c22e', 'L7FBKJ692P', 'KDOT-0615', '4f412157e48f', '400', 'Cash', '2024-01-29 06:21:35.498028');
+
 -- --------------------------------------------------------
 
 --
@@ -143,14 +157,12 @@ CREATE TABLE `rpos_products` (
 INSERT INTO `rpos_products` (`prod_id`, `prod_code`, `prod_name`, `prod_img`, `prod_desc`, `prod_price`, `created_at`) VALUES
 ('06ffe15464', 'LOAD-9436', 'Cup cake (per tray)', 'cup-cake.jpg', '...', '200', '2024-01-26 09:03:35.675514'),
 ('13c5ff3163', 'MLGV-4627', 'Banana Cake (per tray)', 'banana-cake.jpg', '...', '150', '2024-01-26 08:52:06.064102'),
-('35d1c22148', 'VMHY-9278', 'Assorted Cookies (per box)', 'assorted-cookies.jpg', '...', '200', '2024-01-26 08:50:14.929999'),
-('39286fa981', 'XDCY-5603', 'Choco Cupcake (per piece)', 'choco-cupcake.jpg', '...', '20', '2024-01-26 08:58:32.572719'),
-('520d099352', 'AUBQ-8720', 'Banana Loaf (per box)', 'banana-loaf.jpg', '...', '80', '2024-01-26 08:52:47.645391'),
-('64d4a5fb75', 'LXUV-5493', 'Chocolate Cake', 'chocolate-cake.jpg', '...', '250', '2024-01-26 08:59:34.300662'),
-('85b6b35f12', 'SAFY-9438', 'Fudgy Brownies Thick (per plastic tray)', 'fudgy-brownies-thick.jpg', '...', '180', '2024-01-26 09:07:58.864058'),
-('cd95dc5b2d', 'IDLT-4809', 'Choco Cupcake w/ white Icing (per paper box)', 'white-choco-cupcake.jpg', '...', '200', '2024-01-26 09:09:09.964232'),
-('ce6dbc8469', 'UTKG-5760', 'Fudgy Brownies (per plastic tray)', 'fudgy-brownies.jpg', '...', '120', '2024-01-26 09:06:51.339677'),
-('e8be60fef6', 'FJVN-9728', 'Choco Crinkles (per box)', 'chocolate-crinkles.jpg', '...', '120', '2024-01-26 09:03:14.820488');
+('35d1c22148', 'VMHY-9278', 'Assorted Cookies (per box)', 'assorted-cookies.jpg', '...', '150', '2024-01-30 15:39:26.169265'),
+('39286fa981', 'XDCY-5603', '1 box Choco Cupcake (6 pcs)', 'choco-cupcake.jpg', '...', '150', '2024-01-30 15:45:06.029863'),
+('520d099352', 'AUBQ-8720', 'Banana Loaf (per box)', 'banana-loaf.jpg', '...', '150', '2024-01-30 15:40:00.150520'),
+('cd95dc5b2d', 'IDLT-4809', '1 box Hokkaido cupcakes (6pcs)', 'white-choco-cupcake.jpg', '...', '150', '2024-01-30 15:43:19.729693'),
+('ce6dbc8469', 'UTKG-5760', '1 pack Brownies (6 pieces)', 'fudgy-brownies.jpg', '...', '120', '2024-01-30 15:42:21.686468'),
+('e8be60fef6', 'FJVN-9728', '1 pack Choco Crinkles (6 pcs)', 'chocolate-crinkles.jpg', '...', '120', '2024-01-30 15:44:19.917124');
 
 -- --------------------------------------------------------
 

@@ -77,18 +77,22 @@
 <body>
     <div class="flex-center position-ref full-height">
         <div class="content">
-            <div class="title m-b-md" style="font-family: 'Honk', system-ui;color: #6D2932;">
-               Sweet Thumb POS
+            <div class="title">
+               <img src="pos/admin/assets/img/brand/sweet-thumb-logo.png" />
             </div>
 
             <div class="links">
 			<!-- For more projects: Visit NetGO+  -->
-                <a href="pos/admin/">Admin Log In</a>
-                <a href="pos/cashier/">Cashier Log In</a>
-                <a href="pos/customer">Customer Log In</a>
+                <a style="color: black; font-weight: bold;" href="pos/admin/">Admin Log In</a>
+                <a style="color: black; font-weight: bold;" href="pos/cashier/">Cashier Log In</a>
+                <a style="color: black; font-weight: bold;" href="pos/customer">Customer Log In</a>
             </div>
         </div>
     </div>
 </body>
+
+<?php
+    require_once('pos/admin/partials/_scripts.php')
+?>
 
 </html>
