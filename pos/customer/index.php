@@ -29,7 +29,7 @@ require_once('partials/_head.php');
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
 
 
 </head>
@@ -41,7 +41,7 @@ require_once('partials/_head.php');
                 <div class="header-body text-center mb-7">
                     <div class="row justify-content-center">
                         <div class="col-lg-5 col-md-6">
-                            <h1 class="text-white" style="font-family: 'Honk', system-ui; font-size: 50px;">Log in as Customer</h1>
+                            <h1 class="" style="font-family: 'Shrikhand', serif, system-ui;color: #6D2932; font-size: 40px">Login as Customer</h1>
                         </div>
                     </div>
                 </div>

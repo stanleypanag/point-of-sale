@@ -24,7 +24,7 @@
   while ($admin = $res->fetch_object()) {
 
   ?>
-    <nav class="navbar navbar-vertical fixed-left navbar-expand-md navbar-light" style="background-color: #D63484;" id="sidenav-main">
+    <nav class="navbar navbar-vertical fixed-left navbar-expand-md navbar-light" style="background-color: #e6a4b4;" id="sidenav-main">
       <div class="container-fluid">
         <!-- Toggler -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sidenav-collapse-main" aria-controls="sidenav-main" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,7 +32,7 @@
         </button>
         <!-- Brand -->
         <a class="navbar-brand pt-0 pb-0" href="dashboard.php">
-          <h1 style="font-family: 'Shrikhand', serif;color: #FDF0D1;font-size: 1.5rem;">Sweet Thumb</h1>
+          <h1 style="font-family: 'Shrikhand', serif;color: #644735;font-size: 1.5rem;">Sweet Thumb</h1>
         </a>
         <!-- User -->
         <ul class="nav align-items-center d-md-none">
@@ -99,37 +99,37 @@
           <!-- Navigation -->
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link text-white" href="dashboard.php">
+              <a class="nav-link" style="color:#644735" href="dashboard.php">
                 <i class="ni ni-tv-2"></i> Dashboard
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="hrm.php">
+              <a class="nav-link" style="color:#644735" href="hrm.php">
                 <i class="fas fa-user-tie"></i> Staff
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="customes.php">
+              <a class="nav-link" style="color:#644735" href="customes.php">
                 <i class="fas fa-users"></i> Customers
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="products.php">
+              <a class="nav-link" style="color:#644735" href="products.php">
                 <i class="ni ni-bullet-list-67"></i>Products
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="orders.php">
+              <a class="nav-link" style="color:#644735" href="orders.php">
                 <i class="ni ni-cart"></i> Orders
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="payments.php">
+              <a class="nav-link" style="color:#644735" href="payments.php">
                 <i class="ni ni-credit-card"></i> Payments
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="receipts.php">
+              <a class="nav-link" style="color:#644735" href="receipts.php">
                 <i class="fas fa-file-invoice-dollar"></i> Receipts
               </a>
             </li>
@@ -137,16 +137,16 @@
           <!-- Divider -->
           <hr class="my-3">
           <!-- Heading -->
-          <h6 class="navbar-heading text-pink">Reporting</h6>
+          <h6 class="navbar-heading" style="color:#644735">Reporting</h6>
           <!-- Navigation -->
           <ul class="navbar-nav mb-md-3">
             <li class="nav-item">
-              <a class="nav-link text-white" href="orders_reports.php">
+              <a class="nav-link" style="color:#644735" href="orders_reports.php">
                 <i class="fas fa-shopping-basket"></i> Orders
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="payments_reports.php">
+              <a class="nav-link" style="color:#644735" href="payments_reports.php">
                 <i class="fas fa-funnel-dollar"></i> Payments
               </a>
             </li>
