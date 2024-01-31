@@ -71,22 +71,22 @@ require_once('partials/_head.php');
               <div class="card-body">
                 <form method="POST">
                   <div class="form-row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 mb-3">
                       <label>Staff Number</label>
                       <input type="text" name="staff_number" class="form-control" value="<?php echo $staff->staff_number; ?>">
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 mb-3">
                       <label>Staff Name</label>
                       <input type="text" name="staff_name" class="form-control" value="<?php echo $staff->staff_name; ?>">
                     </div>
                   </div>
 
-                  <div class="form-row">
+                  <div class="form-row mb-3">
                     <div class="col-md-6">
                       <label>Staff Email</label>
                       <input type="email" name="staff_email" class="form-control" value="<?php echo $staff->staff_email; ?>">
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 mb-3">
                       <label>Staff Password</label>
                       <input type="password" name="staff_password" class="form-control" value="">
                     </div>
