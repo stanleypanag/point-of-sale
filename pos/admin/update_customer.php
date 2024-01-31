@@ -76,7 +76,7 @@ require_once('partials/_head.php');
                       <input type="text" name="customer_name" value="<?php echo $cust->customer_name; ?>" class="form-control">
                     </div>
                     <div class="col-md-6">
-                      <label>Customer Phone Number</label>
+                      <label>Customer Home Address</label>
                       <input type="text" name="customer_phoneno" value="<?php echo $cust->customer_phoneno; ?>" class="form-control" value="">
                     </div>
                   </div>

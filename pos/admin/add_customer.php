@@ -80,7 +80,7 @@ require_once('partials/_head.php');
                     <input type="hidden" name="customer_id" value="<?php echo $cus_id; ?>" class="form-control">
                   </div>
                   <div class="col-md-6">
-                    <label>Customer Phone Number</label>
+                    <label>Customer Home Address</label>
                     <input type="text" name="customer_phoneno" class="form-control" value="">
                   </div>
                 </div>

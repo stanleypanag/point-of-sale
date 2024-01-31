@@ -56,7 +56,7 @@ require_once('partials/_head.php');
                                 <thead class="thead-light">
                                     <tr>
                                         <th scope="col">Full Name</th>
-                                        <th scope="col">Contact Number</th>
+                                        <th scope="col">Home Address</th>
                                         <th scope="col">Email</th>
                                         <th scope="col">Action</th>
                                     </tr>
